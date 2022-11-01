@@ -25,9 +25,12 @@ weburl = newUrl("https://velvety-paprenjak-3b0508.netlify.app/", "Fun Face Maker
 let giturl = newUrl("https://github.com/Sirbucket/drawingapplet", "Drawing Applet Code", githubUrlList)
 giturl = newUrl("https://github.com/Sirbucket/Image-Eraser-Game", "Erasing Background Game Code", githubUrlList)
 giturl = newUrl("https://github.com/Sirbucket/Quiz-game", "Warcraft Quiz Game Code", githubUrlList)
-giturl = newUrl("", "", githubUrlList)
-giturl = newUrl("", "", githubUrlList)
-giturl = newUrl("", "", githubUrlList)
-giturl = newUrl("", "", githubUrlList)
+giturl = newUrl("https://github.com/Sirbucket/apple-muncher", "'Apple Muncher' Code", githubUrlList)
+giturl = newUrl("https://github.com/Sirbucket/Todo-list-w-guideline", "Todo List Code", githubUrlList)
+giturl = newUrl("https://github.com/Sirbucket/Weather-App", "Weather App Code", githubUrlList)
+giturl = newUrl("https://github.com/Sirbucket/Face-Maker", "Face Maker Code", githubUrlList)
+giturl = newUrl("https://github.com/Sirbucket/College-Portfolio-Website", "This Website!", githubUrlList)
+
+
 const webgameContainer = new Container(webgameUrlList, app)
 const gitContainer = new Container(githubUrlList, app)
