@@ -5,6 +5,8 @@ export class Container {
     clone : Node
     cloneContent : HTMLElement
     constructor (list, app) {
+        if (list[0] == null) return;
+        
         let itemTemplate = document.querySelector("#container"); 
         const length: number = list.length;
         this.clone = itemTemplate.cloneNode(true); 
